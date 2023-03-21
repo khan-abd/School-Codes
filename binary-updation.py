@@ -51,10 +51,10 @@ while True:
     '''))
 
     if menu==1:
-        c=int(input("Enter empid to be searched: "))
+        c=int(input("Enter empid, who's record has to be searched: "))
         search(c)
     elif menu==2:
-        c=int(input("Enter empid to be updated: "))
+        c=int(input("Enter empid, who's salary has to be updated: "))
         update(c)
     elif menu==3:
         break
